@@ -5,30 +5,19 @@
 
 int main()
 {
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
->>>>>>> 1262504f01dbfe14b8e5aa5a2db910eac8aba5b2
 	std::cout << "Hello World!\n";
 	std::cout << "Nazywam sie Daniel Pustula\n";
 	std::cout << "Nazywam sie Daniel Pustula\n";
 	std::cout << "X"; //staï¿½a znakowa-musi byï¿½ jeden znak
 	std::cout << "\n";
 	std::cout << "\n";
-<<<<<<< HEAD
+
 	std::cout << 257 << "\n";//staï¿½a liczbowa caï¿½kowita
    std::cout << 12.5 << "\n";//staï¿½a liczbowa rzeczywista
 
     std::cout << "Hello World!\n";
 
-=======
-	std::cout << 257 << "\n";//sta³a liczbowa ca³kowita
-   std::cout << 12.5 << "\n";//sta³a liczbowa rzeczywista
-=======
-    std::cout << "Hello World!\n";
->>>>>>> edbc78d1625608a630c7f9456075063437adce27
->>>>>>> 1262504f01dbfe14b8e5aa5a2db910eac8aba5b2
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
@@ -40,14 +29,6 @@ int main()
 //   3. Use the Output window to see build output and other messages
 //   4. Use the Error List window to view errors
 //   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-<<<<<<< HEAD
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file 
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
 
-=======
-<<<<<<< HEAD
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file 
-=======
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
->>>>>>> edbc78d1625608a630c7f9456075063437adce27
->>>>>>> 1262504f01dbfe14b8e5aa5a2db910eac8aba5b2

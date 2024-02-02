@@ -1,0 +1,15 @@
+﻿'LoopDoWhileAplication.exe' (Win32): Loaded 'C:\Daniel P 1D\Programista\lol\Programowanie\x64\Debug\LoopDoWhileAplication.exe'. Symbols loaded.
+'LoopDoWhileAplication.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. 
+'LoopDoWhileAplication.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. 
+'LoopDoWhileAplication.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. 
+'LoopDoWhileAplication.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140d.dll'. 
+'LoopDoWhileAplication.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140_1d.dll'. 
+'LoopDoWhileAplication.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. 
+'LoopDoWhileAplication.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. 
+The thread 0x12d4 has exited with code 0 (0x0).
+'LoopDoWhileAplication.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. 
+'LoopDoWhileAplication.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. 
+'LoopDoWhileAplication.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. 
+The thread 0x2f0c has exited with code 0 (0x0).
+The thread 0x2e14 has exited with code 0 (0x0).
+The program '[9168] LoopDoWhileAplication.exe' has exited with code 0 (0x0).
