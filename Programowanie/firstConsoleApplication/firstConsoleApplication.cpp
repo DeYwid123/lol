@@ -6,17 +6,6 @@
 int main()
 {
 
-	std::cout << "Hello World!\n";
-	std::cout << "Nazywam sie Daniel Pustula\n";
-	std::cout << "Nazywam sie Daniel Pustula\n";
-	std::cout << "X"; //sta�a znakowa-musi by� jeden znak
-	std::cout << "\n";
-	std::cout << "\n";
-
-	std::cout << 257 << "\n";//sta�a liczbowa ca�kowita
-   std::cout << 12.5 << "\n";//sta�a liczbowa rzeczywista
-
-    std::cout << "Hello World!\n";
 
 }
 
