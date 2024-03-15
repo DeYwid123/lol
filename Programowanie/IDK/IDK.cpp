@@ -74,20 +74,6 @@ void task4()
     }
     
 }
-/*
-
-
-* Program, kóry wyświetli poniższe wzory:
-    ****     *       54321        121212        122333
-    ***     ***      65432        212121        223334444
-    **     *****     76543        121212        333444455555
-    *     *******    87654        212121        444455555666666
-
-* Oblicz sumę szeregu 1/1^2 + 1/2^2 + 1/3^2 + ... +1/n^2. Jeżeli się nie pomylisz, to dla odpowiednio dużej wartości n po przemnożeniu jej przez 6 i spierwiastkowaniu powinieneś otrzymać wartość liczby π (suma szeregu jest równa π2/6). Zwróć uwagę, że pierwsza wartość indeksu to 1, a nie 0. Dokładność obliczeń można sprawdzić porównując z wartością odczytaną z własności Math.PI.
-
-* Napisz program, który rozkłoży liczbę na czynniki pierwsze.
-
-*/
 // Program obliczający sumę liczb od 1 do 100
 void task5()
 {
@@ -204,9 +190,45 @@ void task13()
 //Program wyświetlający na ekranie ciąg Fibonacciego do 20 elementu(ciąg Fibonacciego to ciąg gdzie każdy element jest sumą dwóch poprzednich, np. 0, 1, 1, 2, 3, 5, 8, 13 itd.)
 void task14()
 {
+    int number = 0, previousNumber ;
+    for (int i = 1; i <= 10; i++)
+    {
+        previousNumber = number - 1;
+        previousNumber++;
+        number++;
+        std::cout << "ciąg fabinacciego to " << number << ", " << previousNumber << "\n";
+    }
+}
+/*
+  Program, kóry wyświetli poniższe wzory:
+	****     *       54321        121212        122333
+	***     ***      65432        212121        223334444
+	**     *****     76543        121212        333444455555
+	*     *******    87654        212121        444455555666666
+*/
+void task15()
+{
+    int number;
+    
+}
+//Oblicz sumę szeregu 1 / 1 ^ 2 + 1 / 2 ^ 2 + 1 / 3 ^ 2 + ... + 1 / n ^ 2. Jeżeli się nie pomylisz, to dla odpowiednio dużej wartości n po przemnożeniu jej przez 6 i spierwiastkowaniu powinieneś otrzymać wartość liczby π(suma szeregu jest równa π2 / 6).Zwróć uwagę, że pierwsza wartość indeksu to 1, a nie 0. Dokładność obliczeń można sprawdzić porównując z wartością odczytaną z własności Math.PI.
+void task16()
+{
 
 }
-
+//Napisz program, który rozkłoży liczbę na czynniki pierwsze.
+void task17()
+{
+    int number, distributedNumber;
+    std::cout << "Podaj liczbę \n";
+    std::cin >> number;
+    distributedNumber = 1;
+    for (int i = 1; number >= i; i++)
+    {
+        distributedNumber = number / i ;
+        std::cout << "liczba " << number << "rozłożona na czynniki to " << distributedNumber << "\n";
+    }
+}
 int main()
 {
     //task1();
@@ -222,7 +244,9 @@ int main()
     //task11();
     //task12();
     //task13();
-    task14();
-
+    //task14();
+    //task15();
+    //task16();
+    task17();
 }
 

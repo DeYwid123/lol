@@ -4,14 +4,14 @@
 
 void task1()
 {
-
+	
 	int number;
-	do
-	{
-		std::cout << "Podaj liczbe:";
-		std::cin >> number;
-	} while (number < 0);
-	std::cout << "Podano liczbê:" << number;
+		do 
+		{
+			std::cout << "Podaj liczbe:";
+			std::cin >> number;	
+		} while (number < 0);
+		std::cout << "Podano liczbê:" << number;
 }
 void task2()
 {
@@ -69,7 +69,7 @@ void task4()
 		sumOfDigits = sumOfDigits + rest;
 		number = number / 10;
 	} while (number > 0);
-
+		
 
 	std::cout << "Suma cyfr wynosi " << sumOfDigits << "\n";
 }
@@ -148,11 +148,11 @@ void task7()
 		std::cin >> number;
 		
 		if (temp != 0)
-		{
+{
 			numberOfDigits++;
 			temp /= 10;
-		}
-		
+}
+
 	} while (number == 0);
 	std::cout << "suma wynosi " << numberOfDigits ;
 
