@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OrderCostCalculatorMauiApp.MainPage">
+
+    <VerticalStackLayout Padding="30" Spacing="20">
+        <Entry x:Name="ProductNameEntry" Placeholder="Nazwa produktu" />
+        <Entry x:Name="PriceEntry" Placeholder="Cena za sztukę" Keyboard="Numeric" />
+        <HorizontalStackLayout Spacing="15">
+            <Stepper x:Name="QuantityStepper" Minimum="1" Maximum="10" ValueChanged="OnQuantityChanged" />
+            <Label x:Name="QuantityLabel" Text="1" VerticalOptions="Center" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="15">
+            <Label Text="Dostawa ekspresowa (+15 zł)" VerticalOptions="Center" />
+            <Switch x:Name="ExpressSwitch" />
+        </HorizontalStackLayout>
+        <Button Text="Oblicz" Clicked="OnCalculateClicked" />
+        <Label x:Name="ResultLabel" Text="Wynik:" />
+    </VerticalStackLayout>
+
+</ContentPage>
